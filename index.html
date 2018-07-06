@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <video id="vid" src="video/videoplayback.mp4" autoplay controls="controls" loop muted>
+
+    </video>
+    <button type="button" name="button" onclick="pause()">pause</button>
+  </body>
+  <script type="text/javascript">
+  function pause(){
+    var video=document.getElementById("vid");
+    video.pause();
+  }
+  </script>
+</html>
